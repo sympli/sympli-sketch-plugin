@@ -30201,7 +30201,7 @@ var SketchPlugin = exports.SketchPlugin = {
             });
             for (var i = 0; i < filesToCompress.length; i++) {
               var currentFile = filesToCompress[i];
-              var svgString = "" + NSString.stringWithContentsOfFile_encoding_error(currentFile, NSUTF8StringEncoding, nil);
+              var svgString = "" + NSString.stringWithContentsOfFile_encoding_error(currentFile, 4, nil);
               originalTotalSize += svgString.length;
 
               // Hacks for plugins
@@ -30217,7 +30217,7 @@ var SketchPlugin = exports.SketchPlugin = {
               }
               svgCompressor.optimize(svgString, function (result) {
                 compressedTotalSize += result.data.length;
-                NSString.stringWithString(result.data).writeToFile_atomically_encoding_error(currentFile, true, NSUTF8StringEncoding, nil);
+                NSString.stringWithString(result.data).writeToFile_atomically_encoding_error(currentFile, true, 4, nil);
               });
             }
             // var compressionRatio = (100 - compressedTotalSize * 100 / originalTotalSize).toFixed(2);
