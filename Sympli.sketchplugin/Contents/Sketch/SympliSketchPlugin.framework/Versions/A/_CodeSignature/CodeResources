@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/AnalyticsWindow.nib</key>
 		<data>
-		AJY3bSHN4WkdGr8Z6/fBWJBkqtU=
+		z1IxQQNcIxA4z0rPyBWWGdLViXQ=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		qxepT0HKO7PJo6XXtCaV2Q82mnA=
+		GbyIxML6dm1PJF7Fmm3D0bamLOw=
 		</data>
 		<key>Resources/Defaults.plist</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Resources/DisclosureViewController.nib</key>
 		<data>
-		hzfY+msGmnXBIdrPC8KiMEn5Oew=
+		aEGJPiyOmOe03R4MKe5ynZd0BBw=
 		</data>
 		<key>Resources/DuplicatesViewController.nib</key>
 		<data>
-		ol3HPUC3b8g9DfyLLB+gziUmU4A=
+		uj2bLw7sL28NRiwv6jJCbX70Xt4=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		1jU7Osh2rh5gfBoJX+mjfbo39wU=
+		hJW/8Jt8E9giwfgyy0KHiJ6OeEo=
 		</data>
 		<key>Resources/LoginController.nib</key>
 		<data>
-		P1WWvQhGirzgvXdZL0E3+aSu5DE=
+		Cln6t4fZQJiE/rQIB4Y1zMChiEI=
 		</data>
 		<key>Resources/ProjectViewController.nib</key>
 		<data>
-		npH6WLqSkBPpNiC5S4Fcm08pLiE=
+		UJtswxke/dmthLXsS/IsXLVM1RM=
 		</data>
 		<key>Resources/SAMLController.nib</key>
 		<data>
-		dhCs62n+0kVlri5pen0xCsoxMDU=
+		JvyZr9xRLv6scu8aSqv4IS8UWQo=
 		</data>
 		<key>Resources/SVGO Compressor.sketchplugin/Contents/Sketch/manifest.json</key>
 		<data>
@@ -50,79 +50,79 @@
 		</data>
 		<key>Resources/ScreenTagsViewController.nib</key>
 		<data>
-		8FtL1cBL69+pWbQx+DrDeTQ/GXM=
+		57XqHNnlWcRqKUzOyZpFClnxrpM=
 		</data>
 		<key>Resources/SettingsController.nib</key>
 		<data>
-		TdrHXVjQvoh9p2Ahm25r7SOtjjs=
+		h0j0YoSVHg98k+efUMxz7jL7NRY=
 		</data>
 		<key>Resources/ShareViewController.nib</key>
 		<data>
-		wSweZBa57EOrQr5cmpi4symoJ3s=
+		m6aORuRV7XKIszI1rCdj7ke1mXE=
 		</data>
 		<key>Resources/SimpleBaselineChooserController.nib</key>
 		<data>
-		eTa4Xr6uq9Lj0QuW6to/xyVVzx4=
+		duKfX/kyvmboiuKheAoGkYnD6qk=
 		</data>
 		<key>Resources/SympliExportController.nib</key>
 		<data>
-		ud/19bVvfmv66U8RoipRFP0aZI4=
+		cSOc1FI14Rm15rD99A0vqR8qG6Q=
 		</data>
 		<key>Resources/SympliFlowLayoutViewController.nib</key>
 		<data>
-		g3ryHswFm4L/1fR4iruLmrnfIG8=
+		3b/NL04pZYAioGQsVg34hJpU7LE=
 		</data>
 		<key>Resources/SympliProcessingController.nib</key>
 		<data>
-		lcQBHERuRaE7R8Z+OTzHipBkWpk=
+		uipyFxHDGps5ndf0K3TpidmFIvc=
 		</data>
 		<key>Resources/SympliProjectsController.nib</key>
 		<data>
-		axuq8HMBUNSlt3cmGHLu5edL+0A=
+		8kToKJdbV1zc7anboiPjIqVk6B8=
 		</data>
 		<key>Resources/SympliShareBundleController.nib</key>
 		<data>
-		rdvvrjVQsUDT2jda2QWiw5hhOME=
+		OTTTkjN/pj3pU90hlMRklv6DGa0=
 		</data>
 		<key>Resources/android_folder.tiff</key>
 		<data>
-		ekbwWAHVVpKZRNm8h/L8Aw6hsPQ=
+		8ZCb5XygYTFf97CasFneYVJm6/U=
 		</data>
 		<key>Resources/android_icon_dark.tiff</key>
 		<data>
-		tyaWcHy3A2VBkyrwpDkVNzw8L+k=
+		wyZeCekOf8zs38XYIoIrSBTrr4I=
 		</data>
 		<key>Resources/android_icon_white.tiff</key>
 		<data>
-		QGEOXoZrnnk6t8cnTq09uFI0mcI=
+		2DwQvPtcE5mQ98izIzAh2nObAQI=
 		</data>
 		<key>Resources/apple_icon_dark.tiff</key>
 		<data>
-		z8dmu+D4KDCYDuuQKXis5DOudeo=
+		uiLqqa8myLkdAfWxPnpl+wgTr+8=
 		</data>
 		<key>Resources/apple_icon_white.tiff</key>
 		<data>
-		zjS40C8u7/ddujBfNpNXyu2zBEc=
+		yBN2E2/VfFyug3rzi2r3Z39mSSY=
 		</data>
 		<key>Resources/ios_folder.tiff</key>
 		<data>
-		K5kKJlsXIRNhsiLfuD9yFYVz1Ao=
+		NuBMX+Eqtex18EHgVEx0Lgo1AhE=
 		</data>
 		<key>Resources/tools/optipng</key>
 		<data>
-		kySjPmsHM6ymMXovNTuuFyHaqxk=
+		7PIgSbhpex5XE0MN98fWt/IP/M0=
 		</data>
 		<key>Resources/web_folder.tiff</key>
 		<data>
-		gkCXTSCtdTSmqJOnXrB2bWnpfqs=
+		1NEW+DQiYA7umyOuAhHsUkGpPtE=
 		</data>
 		<key>Resources/web_icon_dark.tiff</key>
 		<data>
-		25k+3f2JhJuczy1QPD/SSNHO99g=
+		Xt4P/PK+5kyGIBoxowGmtH9WRio=
 		</data>
 		<key>Resources/web_icon_white.tiff</key>
 		<data>
-		lxvFNmLNaFuXpvdu8NPmabWOPZo=
+		Fcq6flRjqzJbPcZ265ZtifEu8yU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -131,22 +131,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AJY3bSHN4WkdGr8Z6/fBWJBkqtU=
+			z1IxQQNcIxA4z0rPyBWWGdLViXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			d0rDix26nxzXQxzt1INrxSE9JR1XyQwxNiPe5QKPoDw=
+			mWljBN7eM1VXU6yZ4QBJodouhq9cp92LjQva++1AJdQ=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qxepT0HKO7PJo6XXtCaV2Q82mnA=
+			GbyIxML6dm1PJF7Fmm3D0bamLOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/6/9q0v1WTqMYuQy33SVJXlgxkiMrr5HlDN/cf19Q8Q=
+			+1cKUiBS7kgiB02ZID96NAnrX1atC0FtFFuovCMNDKM=
 			</data>
 		</dict>
 		<key>Resources/Defaults.plist</key>
@@ -164,66 +164,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hzfY+msGmnXBIdrPC8KiMEn5Oew=
+			aEGJPiyOmOe03R4MKe5ynZd0BBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			l/dkREyPagA40XxzcZtcEZSIdDP5QYEh0F++DE6dOQw=
+			uPRvACkoFhAlTtxLOyQuS2486sSAnM4n2TyBt9GLFpQ=
 			</data>
 		</dict>
 		<key>Resources/DuplicatesViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ol3HPUC3b8g9DfyLLB+gziUmU4A=
+			uj2bLw7sL28NRiwv6jJCbX70Xt4=
 			</data>
 			<key>hash2</key>
 			<data>
-			QI+q/k14mEJmL6ypvBGfI1flW5ghAQWdJPULqGTF+LY=
+			aXkdaW7aw3MtaRylqBuQr6yF7eoV8Ih4kjiGOcrfh3A=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1jU7Osh2rh5gfBoJX+mjfbo39wU=
+			hJW/8Jt8E9giwfgyy0KHiJ6OeEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			b20ymwoTrvlOVsLCY1TXbeztAhsUiWDEsDfEmiBwzkY=
+			S59dSX3bzCO6wrkmFNkhgQHv7PUxu/WgQtqWnR1UONE=
 			</data>
 		</dict>
 		<key>Resources/LoginController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P1WWvQhGirzgvXdZL0E3+aSu5DE=
+			Cln6t4fZQJiE/rQIB4Y1zMChiEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AjwrcmHyNFsUlZ301+AtwJ9XBb7PJF4CpPH7ntLc+NY=
+			eqyRD/oVjL2uSNC86jZdAVV1FT0aHd/eugP7pJkFT8A=
 			</data>
 		</dict>
 		<key>Resources/ProjectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			npH6WLqSkBPpNiC5S4Fcm08pLiE=
+			UJtswxke/dmthLXsS/IsXLVM1RM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5oixVXK+ZMTrTkVxQwqvIgPtxDFCfol/n0M6iRx3NMQ=
+			LGVnoUXshKyo5qJ09sp9Xy1RaxaLwu3B/urR+jKN1Pk=
 			</data>
 		</dict>
 		<key>Resources/SAMLController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dhCs62n+0kVlri5pen0xCsoxMDU=
+			JvyZr9xRLv6scu8aSqv4IS8UWQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WxBRvWXAp0M/RkFEKqPuwYDKFGG+E8swWSnJal94T4U=
+			87iymY9zZKJKv2rofEfSfn56VyyG3UKzQHERSI51bcU=
 			</data>
 		</dict>
 		<key>Resources/SVGO Compressor.sketchplugin/Contents/Sketch/manifest.json</key>
@@ -252,209 +252,209 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8FtL1cBL69+pWbQx+DrDeTQ/GXM=
+			57XqHNnlWcRqKUzOyZpFClnxrpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zyoO1TdZlB6rddncR7gds157aOBgcrtUurDBi11L0ws=
+			N5a5/WoeaqMnfPdx+M3GTpWBL9oPlPVTxKXKO9lh+T4=
 			</data>
 		</dict>
 		<key>Resources/SettingsController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TdrHXVjQvoh9p2Ahm25r7SOtjjs=
+			h0j0YoSVHg98k+efUMxz7jL7NRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			O8PVybcHbOfPCe8QpBIG3hPxae9qKhjRXKPfFjMDHWg=
+			P/NW5/N8/RIk0EvSAQSu2lX18gQm5z9KAUoEnNyiyjA=
 			</data>
 		</dict>
 		<key>Resources/ShareViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wSweZBa57EOrQr5cmpi4symoJ3s=
+			m6aORuRV7XKIszI1rCdj7ke1mXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yfLVEG6/ZUvCo9pH3exS10CkFdWBt/iEhuVw4GNnuHw=
+			SfiF3scGdhSgFkDGXBNd+rYR/0H5UCHhIa2oahiouzc=
 			</data>
 		</dict>
 		<key>Resources/SimpleBaselineChooserController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eTa4Xr6uq9Lj0QuW6to/xyVVzx4=
+			duKfX/kyvmboiuKheAoGkYnD6qk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sKfyFr4q/+qY0Bn7Q+G6hxFF3G+s/GiuAl59sqnqeu0=
+			ohdd06PBP05GzcJWflcIndnr2YKVcdlmlIPnZ5iy2SQ=
 			</data>
 		</dict>
 		<key>Resources/SympliExportController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ud/19bVvfmv66U8RoipRFP0aZI4=
+			cSOc1FI14Rm15rD99A0vqR8qG6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			dDfXODHx9ekxBBgT/aU4Z4Pl4dmS2R70DfBQ7JGZseE=
+			zUsddUWjoJPoWaY3GTZi+BYC5Pl+Qi5k54I7IstbSPw=
 			</data>
 		</dict>
 		<key>Resources/SympliFlowLayoutViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g3ryHswFm4L/1fR4iruLmrnfIG8=
+			3b/NL04pZYAioGQsVg34hJpU7LE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1jcTn3W85bqsBtZVZHUonVIM/i3wnRd6bUMfs/eGV3c=
+			l2ppiK7WApiyzsxFOTAXWaz+52uf9QKQOHjuWNYeEFY=
 			</data>
 		</dict>
 		<key>Resources/SympliProcessingController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lcQBHERuRaE7R8Z+OTzHipBkWpk=
+			uipyFxHDGps5ndf0K3TpidmFIvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			DytOnTA8iqNMuLuGv2oPL3kYphQ/eBJUEQ5lJ9kf0sY=
+			nxXxCg1NjLcgk4xmSmpD97CoQJbfO4mU91KMHKbYr+E=
 			</data>
 		</dict>
 		<key>Resources/SympliProjectsController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			axuq8HMBUNSlt3cmGHLu5edL+0A=
+			8kToKJdbV1zc7anboiPjIqVk6B8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uo24X2VtGCkSBqPbAmm8ZCXrYwLx1FmbMocpdvYrA7w=
+			uAmG9nsGX089W8/GsHFHMyEwIM2Mdq0DPyMvy1mLIE4=
 			</data>
 		</dict>
 		<key>Resources/SympliShareBundleController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rdvvrjVQsUDT2jda2QWiw5hhOME=
+			OTTTkjN/pj3pU90hlMRklv6DGa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fpsT2NmOAfTWHt0RywMdQXa2kctmVOV8qT0q0i+NcLg=
+			/AD/3GCWHgYJqkHVMMgFqI1E/I6cyE3Dx9SlxTCMjjc=
 			</data>
 		</dict>
 		<key>Resources/android_folder.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ekbwWAHVVpKZRNm8h/L8Aw6hsPQ=
+			8ZCb5XygYTFf97CasFneYVJm6/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			eHYCEGV/oRGBcAv5N7qprAbOtmLy9zFsVDlv0gkEA4A=
+			jw54zt0Kl5q7q0A7VgpfWpoZCNm3xOFZ6u+AouVqVeM=
 			</data>
 		</dict>
 		<key>Resources/android_icon_dark.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tyaWcHy3A2VBkyrwpDkVNzw8L+k=
+			wyZeCekOf8zs38XYIoIrSBTrr4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			37aBjwA7rqUlF4HonWqoSRs59QO2UgdAbLIv/8zyQMs=
+			6Ad/iuGBIMsCK7jtzwZRyfoXJQst/kBN0IXywKsxfzg=
 			</data>
 		</dict>
 		<key>Resources/android_icon_white.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QGEOXoZrnnk6t8cnTq09uFI0mcI=
+			2DwQvPtcE5mQ98izIzAh2nObAQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qG32ZotDBrjTQWWUjU/FefUjFPqUh/OLkt7WzjMD89s=
+			tZHJImhUV8yegaqRsaPfS8u7w6FQ2rYltkmUeTveyDA=
 			</data>
 		</dict>
 		<key>Resources/apple_icon_dark.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z8dmu+D4KDCYDuuQKXis5DOudeo=
+			uiLqqa8myLkdAfWxPnpl+wgTr+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			9+lV8hyzz75rO5h7EXeF4XqYPdmWU4fR5jrtWOsFsPU=
+			asOW9uRFVuuhjiMbmoei09HWYoNHQL99X+5KHu0mxHE=
 			</data>
 		</dict>
 		<key>Resources/apple_icon_white.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zjS40C8u7/ddujBfNpNXyu2zBEc=
+			yBN2E2/VfFyug3rzi2r3Z39mSSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			iRW/a9HCJEUwgpMfLkk/z9YmtJaI1+M+eF5Qc3hQ2gQ=
+			LeI9l0eSVpv1OcNBlTrjLb519N38ujrj2uRsb0qxSA4=
 			</data>
 		</dict>
 		<key>Resources/ios_folder.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K5kKJlsXIRNhsiLfuD9yFYVz1Ao=
+			NuBMX+Eqtex18EHgVEx0Lgo1AhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LBFDQ2DGuvOyo9+2mRWHzdKPxIXRgmp2GW9zRMscd6M=
+			PRNNL5rT+mFpNg8/bfu5ZbtUap8GsEQn3q6G28HsX7s=
 			</data>
 		</dict>
 		<key>Resources/tools/optipng</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kySjPmsHM6ymMXovNTuuFyHaqxk=
+			7PIgSbhpex5XE0MN98fWt/IP/M0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9uzD6uVZoiTRUfI8+cKeIw5WvU0ZT+FtkM7j3U6yEUI=
+			Gs1aZyf8foNqbCd5/kYhYFnN+VrjIYOgXOq4vZCEIyA=
 			</data>
 		</dict>
 		<key>Resources/web_folder.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gkCXTSCtdTSmqJOnXrB2bWnpfqs=
+			1NEW+DQiYA7umyOuAhHsUkGpPtE=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQtiHV7RktIohY9Dczb+9ww6dHi7HHP10rhm4aFCYbs=
+			5byK0A/NwZTsXIgONXczZNF2LIdR962hCciqQjPsJlk=
 			</data>
 		</dict>
 		<key>Resources/web_icon_dark.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			25k+3f2JhJuczy1QPD/SSNHO99g=
+			Xt4P/PK+5kyGIBoxowGmtH9WRio=
 			</data>
 			<key>hash2</key>
 			<data>
-			xXGz2VENRS5H3DMpytRzcw1VRV2VHpGcqEJAWbJ/1MA=
+			MM7hyArkC0DSmV7F3X05zk5vp5WCBsepq+2ybCuh8x0=
 			</data>
 		</dict>
 		<key>Resources/web_icon_white.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lxvFNmLNaFuXpvdu8NPmabWOPZo=
+			Fcq6flRjqzJbPcZ265ZtifEu8yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			43VLa5XsoGcSYV8E3s9VnZN8bLDEY8wLXa0/MxpSG0I=
+			upEwDY9E+7plOGji0I4QUdikaGxt5LuN8pckf0LAcMg=
 			</data>
 		</dict>
 	</dict>
