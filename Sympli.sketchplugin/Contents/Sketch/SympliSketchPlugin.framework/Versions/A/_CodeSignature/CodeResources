@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/AnalyticsWindow.nib</key>
 		<data>
-		Ikx2+R3nCMNFeECv6J7rBZFMf3k=
+		ChOevBclYUKJEHNpJy68jY2wbqc=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		CAix01Tfr2E7UvZ/j3CEbq8tZCM=
+		7aL7QVzjCQ+rQD85b+mPmOipANI=
 		</data>
 		<key>Resources/Defaults.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		kh4M5Hf0zx7nTIpouSTicmAsLbQ=
+		pKaUnut+SScxq9wOGx/p4DmBUMU=
 		</data>
 		<key>Resources/LoginController.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Resources/ScreenTagsViewController.nib</key>
 		<data>
-		Urw8O8Fv0ZgQxxOtLYdZx1yONww=
+		MUZLUQL9Hz0Y9/TqAZmgXvg+gKw=
 		</data>
 		<key>Resources/SettingsController.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Resources/SimpleBaselineChooserController.nib</key>
 		<data>
-		Cq4nI2c1DTWwQRFmjI0qGHx1xik=
+		Ckq5jDqRdjP4b0ooSItLARFuY8I=
 		</data>
 		<key>Resources/SympliExportController.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Resources/SympliProjectsController.nib</key>
 		<data>
-		z9HxhPN2n/z2+XPi510S/xx98rA=
+		kQuQQzUR/l8PAM1r4O0MqnlGJVI=
 		</data>
 		<key>Resources/SympliShareBundleController.nib</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Resources/tools/optipng</key>
 		<data>
-		2fJ4EGhQJw7fywOZC506hjnodNo=
+		yw1eHw1Iq3+4zIQm6+Ozhe/otr8=
 		</data>
 		<key>Resources/web_folder.tiff</key>
 		<data>
@@ -131,22 +131,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ikx2+R3nCMNFeECv6J7rBZFMf3k=
+			ChOevBclYUKJEHNpJy68jY2wbqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1t4NU4c/cGMOl12t8U+ZkUfrHhPIWcMWhMJdlZ0HAYU=
+			YV2EXLlYaFHFXDR3wovNVDNBcsnKma5jN3691LHbq9o=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CAix01Tfr2E7UvZ/j3CEbq8tZCM=
+			7aL7QVzjCQ+rQD85b+mPmOipANI=
 			</data>
 			<key>hash2</key>
 			<data>
-			MBnUkpS3FgFd2BoAZDzVzCfzdHGMEeMtMTJf3OULRdU=
+			nY4qnIPBJg3qoWLknHD2gXeU5daWtLazhePM0oqHhKg=
 			</data>
 		</dict>
 		<key>Resources/Defaults.plist</key>
@@ -186,11 +186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kh4M5Hf0zx7nTIpouSTicmAsLbQ=
+			pKaUnut+SScxq9wOGx/p4DmBUMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			RfNKS4MytT7LAOiguh/J2rCi4nfIKScp3f8eulewjeY=
+			izs0Rxb2ADFXWVJAhVRZ7cC5AYfIMOeEOHiNk6EZa6M=
 			</data>
 		</dict>
 		<key>Resources/LoginController.nib</key>
@@ -252,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Urw8O8Fv0ZgQxxOtLYdZx1yONww=
+			MUZLUQL9Hz0Y9/TqAZmgXvg+gKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			j4YIaUDYU9hni89+gRLcQwaGQ72RkLoVz97izkzQpuA=
+			u5rZcgD5RSz/8lzrSpC6MyYSYZso45EGoa0gS1GeEQY=
 			</data>
 		</dict>
 		<key>Resources/SettingsController.nib</key>
@@ -285,11 +285,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cq4nI2c1DTWwQRFmjI0qGHx1xik=
+			Ckq5jDqRdjP4b0ooSItLARFuY8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/eOPJ1Wao7Lg6fGzndmxnyXNRBE14WAkU5Pmp+vbAcU=
+			5NFEDrR2H99lRnVgbAYXnjTjKUciAwH0g+a663/+iA4=
 			</data>
 		</dict>
 		<key>Resources/SympliExportController.nib</key>
@@ -329,11 +329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z9HxhPN2n/z2+XPi510S/xx98rA=
+			kQuQQzUR/l8PAM1r4O0MqnlGJVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODNqE4Vv2+xzWrAEt+aKZOYIldiPVas+ZVd5CcLDoRs=
+			qPDcDhrMoo3FbkJZGhcy4JalMn6/u1mxyq7jUgcRPPs=
 			</data>
 		</dict>
 		<key>Resources/SympliShareBundleController.nib</key>
@@ -417,11 +417,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2fJ4EGhQJw7fywOZC506hjnodNo=
+			yw1eHw1Iq3+4zIQm6+Ozhe/otr8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kp62vTcPNHWwGZhQO1f/E5TvSNOg75/Y4MkFD6tMuE0=
+			dU+QhpchB/v6ncP4Oogbj8FQtsj7TOmSqhqXYYae+wg=
 			</data>
 		</dict>
 		<key>Resources/web_folder.tiff</key>

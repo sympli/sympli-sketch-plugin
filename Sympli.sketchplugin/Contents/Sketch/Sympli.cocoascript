@@ -19,8 +19,18 @@ var launchSympliPlugin = function(context, mode) {
     var doc = context.document;
 
     // Show a warning when running on an unsupported version of Sketch
-    var build = parseInt(MSApplicationMetadata.metadata().build);
-    var appVersion = MSApplicationMetadata.metadata().appVersion;
+    var build = Number.MAX_VALUE;
+    var appVersion = "Unknown";
+
+    if (NSClassFromString("MSApplicationMetadata") != null) {
+        build = parseInt(MSApplicationMetadata.metadata().build);
+        appVersion = MSApplicationMetadata.metadata().appVersion;
+    } else if (NSClassFromString("BCSketchInfo") != null) {
+        // Sketch 72+
+        build = parseInt(BCSketchInfo.shared().metadata().build);
+        appVersion = BCSketchInfo.shared().metadata().appVersion;
+    }
+
     var hasntBeenActivatedYet = (NSClassFromString('Sympli') == null);
     var incompatible = (build < /* Sketch 46.2 build number */44496);
 
