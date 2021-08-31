@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/AnalyticsWindow.nib</key>
 		<data>
-		ChOevBclYUKJEHNpJy68jY2wbqc=
+		JWBnCUbV/MpoAGYnrONwheP2NZM=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		7aL7QVzjCQ+rQD85b+mPmOipANI=
+		AhQoJkPX+pcbD+GGxItTRSwpXi4=
 		</data>
 		<key>Resources/Defaults.plist</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		pKaUnut+SScxq9wOGx/p4DmBUMU=
+		b2G9eL+n5nIXcXNu7S7aH8/V1pc=
 		</data>
 		<key>Resources/LoginController.nib</key>
 		<data>
-		lIK4Q+Cv3j3JLiFJtefrx/2gn4o=
+		9Uu0nKCkR+H6YlMHDVFAvrWejwg=
 		</data>
 		<key>Resources/ProjectViewController.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Resources/ScreenTagsViewController.nib</key>
 		<data>
-		MUZLUQL9Hz0Y9/TqAZmgXvg+gKw=
+		9jFQ9jY5wwhatcu2Vk7DiVY8ly8=
 		</data>
 		<key>Resources/SettingsController.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Resources/SimpleBaselineChooserController.nib</key>
 		<data>
-		Ckq5jDqRdjP4b0ooSItLARFuY8I=
+		Cq4nI2c1DTWwQRFmjI0qGHx1xik=
 		</data>
 		<key>Resources/SympliExportController.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Resources/SympliProjectsController.nib</key>
 		<data>
-		kQuQQzUR/l8PAM1r4O0MqnlGJVI=
+		rF4BR6HlxcdZORCMG5Ihg3R/utQ=
 		</data>
 		<key>Resources/SympliShareBundleController.nib</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Resources/tools/optipng</key>
 		<data>
-		yw1eHw1Iq3+4zIQm6+Ozhe/otr8=
+		A/mVRrdsITNye+Q9Tj02iUmk7SA=
 		</data>
 		<key>Resources/web_folder.tiff</key>
 		<data>
@@ -131,22 +131,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ChOevBclYUKJEHNpJy68jY2wbqc=
+			JWBnCUbV/MpoAGYnrONwheP2NZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YV2EXLlYaFHFXDR3wovNVDNBcsnKma5jN3691LHbq9o=
+			L+ymnoSEiGaQwHwZT73dJAL0A3yVNhUdCxERxUFZDTo=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7aL7QVzjCQ+rQD85b+mPmOipANI=
+			AhQoJkPX+pcbD+GGxItTRSwpXi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nY4qnIPBJg3qoWLknHD2gXeU5daWtLazhePM0oqHhKg=
+			svjxX4ef7JGxD9BTOTJjmpJcW3qDtjw6TzkiHlydvg0=
 			</data>
 		</dict>
 		<key>Resources/Defaults.plist</key>
@@ -186,22 +186,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pKaUnut+SScxq9wOGx/p4DmBUMU=
+			b2G9eL+n5nIXcXNu7S7aH8/V1pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			izs0Rxb2ADFXWVJAhVRZ7cC5AYfIMOeEOHiNk6EZa6M=
+			XScbukxRjQgwdsMI4WA6oYIzfByEpvWTNQL5ez+CuL4=
 			</data>
 		</dict>
 		<key>Resources/LoginController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lIK4Q+Cv3j3JLiFJtefrx/2gn4o=
+			9Uu0nKCkR+H6YlMHDVFAvrWejwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cjh2ik3Mv2lckvo3fgwTl5xfQkCuBEzCK66EprpBDmI=
+			nGuV4CD0wscqKEQdqMtv/8pQNloBtJwOq5l9AnQV1f0=
 			</data>
 		</dict>
 		<key>Resources/ProjectViewController.nib</key>
@@ -252,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MUZLUQL9Hz0Y9/TqAZmgXvg+gKw=
+			9jFQ9jY5wwhatcu2Vk7DiVY8ly8=
 			</data>
 			<key>hash2</key>
 			<data>
-			u5rZcgD5RSz/8lzrSpC6MyYSYZso45EGoa0gS1GeEQY=
+			awbmg0j+dlW0T9QwG7bNP1SSnn17AwRwfNRl/k9KC+w=
 			</data>
 		</dict>
 		<key>Resources/SettingsController.nib</key>
@@ -285,11 +285,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ckq5jDqRdjP4b0ooSItLARFuY8I=
+			Cq4nI2c1DTWwQRFmjI0qGHx1xik=
 			</data>
 			<key>hash2</key>
 			<data>
-			5NFEDrR2H99lRnVgbAYXnjTjKUciAwH0g+a663/+iA4=
+			/eOPJ1Wao7Lg6fGzndmxnyXNRBE14WAkU5Pmp+vbAcU=
 			</data>
 		</dict>
 		<key>Resources/SympliExportController.nib</key>
@@ -329,11 +329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kQuQQzUR/l8PAM1r4O0MqnlGJVI=
+			rF4BR6HlxcdZORCMG5Ihg3R/utQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qPDcDhrMoo3FbkJZGhcy4JalMn6/u1mxyq7jUgcRPPs=
+			RDeJwqT2J87x0/FznXBr43hrdpCDerbYvRW4pqeOPQk=
 			</data>
 		</dict>
 		<key>Resources/SympliShareBundleController.nib</key>
@@ -417,11 +417,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yw1eHw1Iq3+4zIQm6+Ozhe/otr8=
+			A/mVRrdsITNye+Q9Tj02iUmk7SA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dU+QhpchB/v6ncP4Oogbj8FQtsj7TOmSqhqXYYae+wg=
+			wXH69Ym4k9MSbkx1dYBiZDgqUE/Jp7iEUKYByh299pc=
 			</data>
 		</dict>
 		<key>Resources/web_folder.tiff</key>
