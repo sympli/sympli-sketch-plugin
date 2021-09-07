@@ -9,9 +9,13 @@ We're commited to keep the plugin compatible with new Sketch versions from day o
 
 ## Usage
 
-### Export to Sympli
+### Export Artboards to Sympli
 
-<kbd>Control + Y</kbd> or `Plugins > Sympli > Export to Sympli…` to start the export process, then follow the on-screen instructions.
+<kbd>Control + Y</kbd> or `Plugins > Sympli > Export Artboards…` to start the export process, then follow the on-screen instructions.
+
+### Export Design System Components to Sympli
+
+<kbd>Shift + Control + Y</kbd> or `Plugins > Sympli > Export Design System…` to start the export process, then follow the on-screen instructions.
 
 ### Tags
 
