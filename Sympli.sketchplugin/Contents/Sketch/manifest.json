@@ -4,7 +4,7 @@
   "author": "Sympli",
   "authorEmail": "info@sympli.io",
   "homepage": "https://sympli.io",
-  "version": "1.3.19",
+  "version": "1.3.20",
   "appcast": "https://app.sympli.io/download/sketch/appcast/sympli.xml",
   "identifier": "io.sympli.sympli-sketch",
   "compatibleVersion": "50",
@@ -14,8 +14,15 @@
     {
       "script": "Sympli.cocoascript",
       "shortcut": "ctrl y",
-      "name": "Export to Sympli",
+      "name": "Export Artboards…",
       "identifier": "export"
+    },
+    {
+      "script": "Sympli.cocoascript",
+      "shortcut": "shift ctrl y",
+      "handler": "exportDesignSystem",
+      "name": "Export Design System…",
+      "identifier": "exportDS"
     },
     {
       "script": "Sympli.cocoascript",
@@ -36,6 +43,8 @@
     "title": "Sympli",
     "items": [
       "export",
+      "exportDS",
+      "-",
       "manageTags",
       "hideTags"
     ]

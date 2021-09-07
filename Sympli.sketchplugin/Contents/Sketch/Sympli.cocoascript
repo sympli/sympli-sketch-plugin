@@ -1,4 +1,12 @@
-var loadFramework = function(pluginRoot) {
+var loadFramework = function(context) {
+    var pluginRoot = context.scriptPath.stringByDeletingLastPathComponent();
+    log("Plugin root:" + pluginRoot);
+
+    if ([pluginRoot rangeOfString:"Containers"].length != 0) {
+        doc.showMessage("Mac App Store version of Sketch is unsupported. Please update Sketch to the latest version from official site.");
+        return false;
+    }
+
     if (NSClassFromString('Sympli') == null) {
         var framework = pluginRoot.stringByAppendingPathComponent("SympliSketchPlugin.framework")
         removeQuarantineFlag(framework)
@@ -74,14 +82,8 @@ var launchSympliPlugin = function(context, mode) {
             doc.showMessage("Please select artboard to export.");
             return;
         }
-        
-        var pluginRoot = context.scriptPath.stringByDeletingLastPathComponent();
-        log("Plugin root:" + pluginRoot);
-        if ([pluginRoot rangeOfString:"Containers"].length != 0) {
-            doc.showMessage("Mac App Store version of Sketch is unsupported. Please update Sketch to the latest version from official site.");
-            return;
-        }
-        var loadFrameworkResult = loadFramework(pluginRoot);
+
+        var loadFrameworkResult = loadFramework(context);
         log("Framework loaded: " + loadFrameworkResult);
 
         if (loadFrameworkResult) {
@@ -98,13 +100,17 @@ var launchSympliPlugin = function(context, mode) {
             var artboards = [[selectedArtboards valueForKeyPath:@"parentArtboard.@distinctUnionOfObjects.self"] mutableCopy];
             [artboards removeObjectIdenticalTo:[NSNull null]];
 
-            [sympli process:filePath withPath:pluginRoot andArtboards:selectedArtboardsIds document:doc artboards:artboards selection:context.selection mode:mode context: context];
+            [sympli process:filePath withPath:"<this option is not used anymore and can be deleted>" andArtboards:selectedArtboardsIds document:doc artboards:artboards selection:context.selection mode:mode context: context];
             log("call sympli: " + loadFrameworkResult);
         }
     } catch (err) {
         doc.showMessage("Sympli: Unknown error.");
         log(err);
     }
+}
+
+var exportDesignSystem = function(context) {
+    launchSympliPlugin(context, "showLoginIfNeededThenRedirectToDSExportFlow");
 }
 
 var manageTags = function(context) {
