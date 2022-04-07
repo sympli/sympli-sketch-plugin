@@ -4,7 +4,7 @@
   "author": "Sympli",
   "authorEmail": "info@sympli.io",
   "homepage": "https://sympli.io",
-  "version": "1.3.20",
+  "version": "1.3.21",
   "appcast": "https://app.sympli.io/download/sketch/appcast/sympli.xml",
   "identifier": "io.sympli.sympli-sketch",
   "compatibleVersion": "50",
