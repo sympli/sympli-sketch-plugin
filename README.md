@@ -4,8 +4,9 @@ This repo contains a Sketch plugin for [Sympli Handoff](https://sympli.io/handof
 
 ## Compatibility
 
-Recent versions of plugin technically support Sketch 50 and above but we'd recommend to keep your Sketch.app up to date to access new features and performance improvements.  
-We're commited to keep the plugin compatible with new Sketch versions from day one.
+The plugin supports Sketch 50 and newer but please update your Sketch.app every once in a while to access new features and performance improvements.
+
+We're commited to keep the plugin compatible with new Sketch versions as they become available.
 
 ## Usage
 
