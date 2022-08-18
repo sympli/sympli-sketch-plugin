@@ -2,9 +2,9 @@
   "name": "Sympli",
   "description": "Automates design handoff, assets and redlines generation. Collaborate with your team. More at https://sympli.io",
   "author": "Sympli",
-  "authorEmail": "info@sympli.io",
+  "authorEmail": "support@sympli.io",
   "homepage": "https://sympli.io",
-  "version": "1.3.22",
+  "version": "1.3.23",
   "appcast": "https://app.sympli.io/download/sketch/appcast/sympli.xml",
   "identifier": "io.sympli.sympli-sketch",
   "compatibleVersion": "50",
@@ -12,40 +12,41 @@
   "icon": "logo.png",
   "commands": [
     {
-      "script": "Sympli.cocoascript",
-      "shortcut": "ctrl y",
       "name": "Export Artboards…",
-      "identifier": "export"
+      "shortcut": "ctrl y",
+      "identifier": "exportArtboards",
+      "handler": "exportArtboards",
+      "script": "Sympli.cocoascript"
     },
     {
-      "script": "Sympli.cocoascript",
-      "shortcut": "shift ctrl y",
-      "handler": "exportDesignSystem",
       "name": "Export Design System…",
-      "identifier": "exportDS"
+      "shortcut": "shift ctrl y",
+      "identifier": "exportDS",
+      "handler": "exportDesignSystem",
+      "script": "Sympli.cocoascript"
     },
     {
-      "script": "Sympli.cocoascript",
-      "shortcut": "ctrl T",
-      "handler": "manageTags",
       "name": "Show Tags",
-      "identifier": "manageTags"
+      "shortcut": "ctrl T",
+      "identifier": "showTags",
+      "handler": "showTags",
+      "script": "Sympli.cocoascript"
     },
     {
-      "script": "Sympli.cocoascript",
-      "shortcut": "ctrl cmd T",
-      "handler": "hideTags",
       "name": "Hide Tags",
-      "identifier": "hideTags"
+      "shortcut": "ctrl cmd T",
+      "identifier": "hideTags",
+      "handler": "hideTags",
+      "script": "Sympli.cocoascript"
     }
   ],
   "menu": {
     "title": "Sympli",
     "items": [
-      "export",
+      "exportArtboards",
       "exportDS",
       "-",
-      "manageTags",
+      "showTags",
       "hideTags"
     ]
   }

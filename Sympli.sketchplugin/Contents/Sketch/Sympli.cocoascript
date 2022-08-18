@@ -1,126 +1,113 @@
-var loadFramework = function(context) {
-    var pluginRoot = context.scriptPath.stringByDeletingLastPathComponent();
-    log("Plugin root:" + pluginRoot);
+//
+//  Sympli.cocoascript
+//  Copyright © 2015-2022 Sympli. All rights reserved.
+//
 
-    if ([pluginRoot rangeOfString:"Containers"].length != 0) {
-        doc.showMessage("Mac App Store version of Sketch is unsupported. Please update Sketch to the latest version from official site.");
-        return false;
-    }
+// MARK: - User Commands
 
-    if (NSClassFromString('Sympli') == null) {
-        var framework = pluginRoot.stringByAppendingPathComponent("SympliSketchPlugin.framework")
-        removeQuarantineFlag(framework)
-        return [[NSBundle bundleWithPath:framework] load];
-    } else {
-        return true;
-    }
+var exportArtboards = function(context) {
+    run(context, "export");
 }
 
-var removeQuarantineFlag = function(path) {
-    var xattr = "/usr/bin/xattr";
-    var args = ["-r", "-d", "com.apple.quarantine", path];
-    var task = [NSTask launchedTaskWithLaunchPath:xattr arguments:args];
-    task.waitUntilExit();
+var exportDesignSystem = function(context) {
+    run(context, "exportDesignSystem");
 }
 
-var launchSympliPlugin = function(context, mode) {
-    var doc = context.document;
+var showTags = function(context) {
+    run(context, "manageTags");
+}
 
-    // Show a warning when running on an unsupported version of Sketch
+var hideTags = function(context) {
+    run(context, "hideTags");
+}
+
+// MARK: -
+
+var run = function(context, mode)
+{
+    if (!validateSketchCompatibility()) {
+        return;
+    }
+
+    const document = context.document;
+    const selection = context.selection;
+    const installedPluginVersion = runningSympliPluginVersion(context);
+
+    const loaded = loadNativeCodeBundle(context);
+    if (!loaded) {
+        document.showMessage("⚠️ Sympli: Unable to start the plugin (" + (installedPluginVersion || "unknown version")  + "). Please update Sympli to the latest version and try again.");
+        return;
+    }
+
+    const loadedPluginVersions = Sympli.sharedInstance().version();
+    if (![loadedPluginVersions isEqualToString:installedPluginVersion]) {
+        document.showMessage("⚠️ Sympli: Please restart Sketch to finish the plugin update process.");
+        return;
+    }
+
+    [[Sympli sharedInstance] invokeInMode:mode document:document selectedLayers:selection];
+}
+
+// MARK: - Utils
+
+var loadNativeCodeBundle = function(context)
+{
+    if (NSClassFromString('Sympli')) {
+        return true
+    }
+
+    var removeQuarantineFlag = function(path) {
+        const xattr = "/usr/bin/xattr";
+        const args = ["-r", "-d", "com.apple.quarantine", path];
+        const task = [NSTask launchedTaskWithLaunchPath:xattr arguments:args];
+        task.waitUntilExit();
+    }
+
+    const root = context.scriptPath.stringByDeletingLastPathComponent();
+    const frameworkPath = root.stringByAppendingPathComponent("SympliSketchPlugin.framework")
+
+    removeQuarantineFlag(frameworkPath)
+    return [[NSBundle bundleWithPath:frameworkPath] load];
+}
+
+var validateSketchCompatibility = function()
+{
     var build = Number.MAX_VALUE;
     var appVersion = "Unknown";
 
-    if (NSClassFromString("MSApplicationMetadata") != null) {
-        build = parseInt(MSApplicationMetadata.metadata().build);
-        appVersion = MSApplicationMetadata.metadata().appVersion;
-    } else if (NSClassFromString("BCSketchInfo") != null) {
+    if (NSClassFromString("BCSketchInfo") != null) {
         // Sketch 72+
         build = parseInt(BCSketchInfo.shared().metadata().build);
         appVersion = BCSketchInfo.shared().metadata().appVersion;
+    } else if (NSClassFromString("MSApplicationMetadata") != null) {
+        build = parseInt(MSApplicationMetadata.metadata().build);
+        appVersion = MSApplicationMetadata.metadata().appVersion;
     }
 
-    var hasntBeenActivatedYet = (NSClassFromString('Sympli') == null);
-    var incompatible = (build < /* Sketch 46.2 build number */44496);
+    const hasntBeenActivatedYet = (NSClassFromString('Sympli') == null);
+    const incompatible = (build < /* Sketch 46.2 build number, see SMP-12358 */44496);
 
     if (hasntBeenActivatedYet && incompatible) {
-        var alert = NSAlert.new()
+        const alert = NSAlert.new()
         alert.alertStyle = NSCriticalAlertStyle;
-        alert.setMessageText("Sympli requires Sketch 46.2, you are using Sketch " + appVersion);
+        alert.setMessageText("Sympli requires Sketch 46.2, but you have Sketch " + appVersion);
         alert.setInformativeText("Sympli is incompatible with your version of Sketch. We recommend you to upgrade to a newer version if possible.");
         [alert addButtonWithTitle:@"Continue Anyway"];
         [alert addButtonWithTitle:@"Cancel"];
         if ([alert runModal] != NSAlertFirstButtonReturn) {
-            return;
+            return false;
         }
     }
 
-    try {
+    return true;
+}
 
-        if ((doc.isDraft() || doc.fileURL()==nil)) {
-            doc.showMessage("Sympli: Please save the document, so we have all your changes.");
-            return;
-        }
-
-        var selectedArtboards = context.selection;
-        if (![selectedArtboards count]) {
-            selectedArtboards = [[doc currentPage] artboards];
-        }
-
-        if (![selectedArtboards count]) {
-           var app = [NSApplication sharedApplication];
-           [app displayDialog:"Please create an artboard for export." withTitle:"Sympli"]      
-           return;
-        }
-        
-        var selectedArtboardsSelf = [selectedArtboards valueForKeyPath:@"parentArtboard.@distinctUnionOfObjects.self"];
-        if(selectedArtboardsSelf) {
-            var notNSNullPredicate = [NSPredicate predicateWithFormat:@"self!=nil AND NOT self isKindOfClass: %@", [NSNull class]];
-            selectedArtboardsSelf = [selectedArtboardsSelf filteredArrayUsingPredicate:notNSNullPredicate];
-        }
-        var selectedArtboardsIds = [selectedArtboardsSelf valueForKeyPath:@"@distinctUnionOfObjects.objectID"];
-        if (![selectedArtboardsIds count]) {
-            doc.showMessage("Please select artboard to export.");
-            return;
-        }
-
-        var loadFrameworkResult = loadFramework(context);
-        log("Framework loaded: " + loadFrameworkResult);
-
-        if (loadFrameworkResult) {
-    	    var filePath = doc.fileURL().path();
-            log("Processing file: " + filePath);
-            var plugin = context.plugin;
-            var sympli = [[Sympli alloc] init];
-            if (![[sympli version] isEqualToString:[plugin version]]) {
-                doc.showMessage("Please restart Sketch to finish plugin update.");
-                return;
-            }
-            log("Initialized Sympli");
-
-            var artboards = [[selectedArtboards valueForKeyPath:@"parentArtboard.@distinctUnionOfObjects.self"] mutableCopy];
-            [artboards removeObjectIdenticalTo:[NSNull null]];
-
-            [sympli process:filePath withPath:"<this option is not used anymore and can be deleted>" andArtboards:selectedArtboardsIds document:doc artboards:artboards selection:context.selection mode:mode context: context];
-            log("call sympli: " + loadFrameworkResult);
-        }
-    } catch (err) {
-        doc.showMessage("Sympli: Unknown error.");
-        log(err);
+var runningSympliPluginVersion = function(context)
+{
+    const plugin = context.plugin
+    if ((plugin) && [plugin respondsToSelector:NSSelectorFromString("version")]) {
+        return plugin.version();
     }
-}
 
-var exportDesignSystem = function(context) {
-    launchSympliPlugin(context, "showLoginIfNeededThenRedirectToDSExportFlow");
-}
-
-var manageTags = function(context) {
-    launchSympliPlugin(context, "manageTags");
-}
-
-var hideTags = function(context) {
-    launchSympliPlugin(context, "hideTags");
-}
-
-var onRun = function(context) {
-    launchSympliPlugin(context, "export");  
+    return null;
 }
