@@ -30,7 +30,6 @@ var run = function(context, mode)
     }
 
     const document = context.document;
-    const selection = context.selection;
     const installedPluginVersion = runningSympliPluginVersion(context);
 
     const loaded = loadNativeCodeBundle(context);
@@ -45,7 +44,7 @@ var run = function(context, mode)
         return;
     }
 
-    [[Sympli sharedInstance] invokeInMode:mode document:document selectedLayers:selection];
+    [[Sympli sharedInstance] invokeInMode:mode document:document];
 }
 
 // MARK: - Utils
