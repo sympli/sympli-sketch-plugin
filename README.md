@@ -1,6 +1,6 @@
 # Sympli Handoff Sketch Plugin 🔸
 
-![Sympli Handoff Plugin for Sketch](./img/PluginScreenshotForReadme.png)
+<img src="./img/PluginScreenshotForReadme.png" width="412">
 
 This repo contains a Sketch plugin for [Sympli Handoff](https://sympli.io/handoff). Feel free to open [an issue](https://github.com/sympli/sympli-sketch-plugin/issues/new/choose) if you have any questions about the plugin, have a bug to report or just want to provide feedback 🙌.
 
