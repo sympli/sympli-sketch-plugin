@@ -2,18 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>io.sympli.isExportOriginalSVGAssets</key>
-	<true/>
 	<key>io.sympli.isExportRetinaPreviews</key>
 	<true/>
 	<key>io.sympli.isExportInvisibleAssets</key>
 	<false/>
-	<key>io.sympli.isUseSymbolsNamesInInstances</key>
-	<false/>
 	<key>io.sympli.bitmapCompressionLevel</key>
 	<integer>0</integer>
-	<key>io.sympli.exportSymbolsUsingCanvasFrame</key>
-	<false/>
 	<key>io.sympli.exportArtboardsFromAllPagesOnEmptySelection</key>
 	<false/>
 </dict>

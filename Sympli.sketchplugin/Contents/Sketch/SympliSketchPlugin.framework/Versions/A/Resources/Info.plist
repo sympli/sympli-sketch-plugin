@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.24</string>
+	<string>1.4.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -47,22 +47,12 @@
 	<key>GAIdentifier</key>
 	<string>UA-129661730-1</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.11</string>
+	<string>10.13</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2015-2019 Sympli. All rights reserved.</string>
+	<string>Copyright © 2015-2022 Sympli. All rights reserved.</string>
 	<key>SympliBaseURL</key>
 	<string>https://app.sympli.io</string>
 	<key>SympliSAMLEndpoint</key>
 	<string></string>
-	<key>SympliServerDomain</key>
-	<string>app</string>
-	<key>SympliUseSAML</key>
-	<string>NO</string>
-	<key>SympliWSDomain</key>
-	<string>https://app.sympli.io</string>
-	<key>SympliWSPort</key>
-	<string>443</string>
-	<key>SympliWSSecure</key>
-	<string>YES</string>
 </dict>
 </plist>

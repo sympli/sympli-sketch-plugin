@@ -6,24 +6,20 @@
 // MARK: - User Commands
 
 var exportArtboards = function(context) {
-    run(context, "export");
+    run(context, function () {
+        Sympli.exportArtboardsInDocument(context.document);
+    });
 }
 
 var exportDesignSystem = function(context) {
-    run(context, "exportDesignSystem");
-}
-
-var showTags = function(context) {
-    run(context, "manageTags");
-}
-
-var hideTags = function(context) {
-    run(context, "hideTags");
+    run(context, function () {
+        Sympli.exportDesignSystemInDocument(context.document);
+    });
 }
 
 // MARK: -
 
-var run = function(context, mode)
+var run = function(context, action)
 {
     if (!validateSketchCompatibility()) {
         return;
@@ -38,13 +34,13 @@ var run = function(context, mode)
         return;
     }
 
-    const loadedPluginVersions = Sympli.sharedInstance().version();
+    const loadedPluginVersions = Sympli.version();
     if (![loadedPluginVersions isEqualToString:installedPluginVersion]) {
         document.showMessage("⚠️ Sympli: Please restart Sketch to finish the plugin update process.");
         return;
     }
 
-    [[Sympli sharedInstance] invokeInMode:mode document:document];
+    action()
 }
 
 // MARK: - Utils

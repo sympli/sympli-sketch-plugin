@@ -4,7 +4,7 @@
   "author": "Sympli",
   "authorEmail": "support@sympli.io",
   "homepage": "https://sympli.io",
-  "version": "1.3.24",
+  "version": "1.4.0",
   "appcast": "https://app.sympli.io/download/sketch/appcast/sympli.xml",
   "identifier": "io.sympli.sympli-sketch",
   "compatibleVersion": "50",
@@ -24,30 +24,13 @@
       "identifier": "exportDS",
       "handler": "exportDesignSystem",
       "script": "Sympli.cocoascript"
-    },
-    {
-      "name": "Show Tags",
-      "shortcut": "ctrl T",
-      "identifier": "showTags",
-      "handler": "showTags",
-      "script": "Sympli.cocoascript"
-    },
-    {
-      "name": "Hide Tags",
-      "shortcut": "ctrl cmd T",
-      "identifier": "hideTags",
-      "handler": "hideTags",
-      "script": "Sympli.cocoascript"
     }
   ],
   "menu": {
     "title": "Sympli",
     "items": [
       "exportArtboards",
-      "exportDS",
-      "-",
-      "showTags",
-      "hideTags"
+      "exportDS"
     ]
   }
 }
