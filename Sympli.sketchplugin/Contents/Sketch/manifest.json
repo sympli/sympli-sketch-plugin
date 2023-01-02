@@ -4,10 +4,10 @@
   "author": "Sympli",
   "authorEmail": "support@sympli.io",
   "homepage": "https://sympli.io",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "appcast": "https://app.sympli.io/download/sketch/appcast/sympli.xml",
   "identifier": "io.sympli.sympli-sketch",
-  "compatibleVersion": "50",
+  "compatibleVersion": "52",
   "bundleVersion": "1",
   "icon": "logo.png",
   "commands": [
