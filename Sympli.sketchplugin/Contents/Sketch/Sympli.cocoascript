@@ -67,26 +67,26 @@ var loadNativeCodeBundle = function(context)
 
 var validateSketchCompatibility = function()
 {
-    var build = Number.MAX_VALUE;
-    var appVersion = "Unknown";
+    const minSupportedSketch = { version: "46.2", build: 44496} // SMP-12358
+    var build = Number.MAX_VALUE; // assuming the Sketch build is supported by default
+    var runningVersion = "Unknown";
 
-    if (NSClassFromString("BCSketchInfo") != null) {
-        // Sketch 72+
-        build = parseInt(BCSketchInfo.shared().metadata().build);
-        appVersion = BCSketchInfo.shared().metadata().appVersion;
-    } else if (NSClassFromString("MSApplicationMetadata") != null) {
+    if (NSClassFromString("MSApplicationMetadata") != null) {
+        // Sketch < 72
         build = parseInt(MSApplicationMetadata.metadata().build);
-        appVersion = MSApplicationMetadata.metadata().appVersion;
+        runningVersion = MSApplicationMetadata.metadata().appVersion;
+    } else {
+        // no-op since we don't care about the actual Sketch version for 72+: it's definitely a supported one
     }
 
     const hasntBeenActivatedYet = (NSClassFromString('Sympli') == null);
-    const incompatible = (build < /* Sketch 46.2 build number, see SMP-12358 */44496);
+    const incompatible = (build < minSupportedSketch.build);
 
     if (hasntBeenActivatedYet && incompatible) {
         const alert = NSAlert.new()
         alert.alertStyle = NSCriticalAlertStyle;
-        alert.setMessageText("Sympli requires Sketch 46.2, but you have Sketch " + appVersion);
-        alert.setInformativeText("Sympli is incompatible with your version of Sketch. We recommend you to upgrade to a newer version if possible.");
+        alert.setMessageText("Sympli requires Sketch " + minSupportedSketch.version + ", but you’re running Sketch " + runningVersion);
+        alert.setInformativeText("Sympli Handoff is incompatible with your version of Sketch. We recommend you to upgrade to a newer version if possible.");
         [alert addButtonWithTitle:@"Continue Anyway"];
         [alert addButtonWithTitle:@"Cancel"];
         if ([alert runModal] != NSAlertFirstButtonReturn) {
