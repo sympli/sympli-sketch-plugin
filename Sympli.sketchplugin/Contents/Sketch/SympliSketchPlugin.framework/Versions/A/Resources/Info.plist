@@ -5,7 +5,7 @@
 	<key>BugsnagIdentifier</key>
 	<string>df7a559a417f90a89426e8fc3d9c858e</string>
 	<key>BuildMachineOSBuild</key>
-	<string>22C65</string>
+	<string>23A344</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.3</string>
+	<string>1.4.4</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -31,21 +31,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>14B47b</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>13.0</string>
+	<string>14.0</string>
 	<key>DTSDKBuild</key>
-	<string>22A372</string>
+	<string>23A334</string>
 	<key>DTSDKName</key>
-	<string>macosx13.0</string>
+	<string>macosx14.0</string>
 	<key>DTXcode</key>
-	<string>1410</string>
+	<string>1500</string>
 	<key>DTXcodeBuild</key>
-	<string>14B47b</string>
-	<key>GAIdentifier</key>
-	<string>UA-129661730-1</string>
+	<string>15A240d</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13</string>
 	<key>NSHumanReadableCopyright</key>
