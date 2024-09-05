@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		ugEDt3aFFSmCXkupmk0XT9FUmMs=
+		7FeGKsdAtsHrfvvqis6llWG0gbU=
 		</data>
 		<key>Resources/Defaults.plist</key>
 		<data>
@@ -14,11 +14,19 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		ZdvW/ZnjdlZgXN8LVIsCGXqZQ0Y=
+		rBkaR2qHkHI1Ee7v8Z2tyvB2WRg=
 		</data>
 		<key>Resources/Localizable.stringsdict</key>
 		<data>
 		bLusAGyG5ce4k09+7sZbkahq38I=
+		</data>
+		<key>Resources/SDWebImage.bundle/Contents/Info.plist</key>
+		<data>
+		vSAuaXd744IwW10eh02nLEgO9V8=
+		</data>
+		<key>Resources/SDWebImage.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
 		<key>Resources/SMPAboutViewController.nib</key>
 		<data>
@@ -44,29 +52,37 @@
 		<data>
 		c+zJY1XZdidOYhDAmauNkxDM/ig=
 		</data>
+		<key>Resources/SMPFlowWindowController.storyboardc/Cdh-Oz-EJi-view-Pod-7z-h64.nib</key>
+		<data>
+		pAqYAtbBFa2jfHKXeHfekOkI5+c=
+		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/Info.plist</key>
 		<data>
-		GvkK8mRe5Jy44JEwvP5x5S4KdBA=
+		4i7J15fv4yK0rDGZqUDRlY73jd8=
 		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSTabViewController-v8p-r9-glZ.nib</key>
 		<data>
-		n1ogizT1oqWSXqaLh9rqzFiBM8Y=
+		qBFIJpa0SfbcLoDjkjPPUJnjUbE=
 		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSViewController-PPW-xU-dv1.nib</key>
 		<data>
-		oBs5UAW95kSzkofKACQyRyFmPDA=
+		bRgR9atD/tbZb+NwMv30mTBQYPE=
 		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSWindowController-YxD-CK-qbM.nib</key>
 		<data>
-		MHUehq5mpY1UfFshEIUzsi3f/Ko=
+		rgB15LLtP+Jss2F8RaWNZ/LPzM0=
 		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/PPW-xU-dv1-view-cVh-CX-zUI.nib</key>
 		<data>
 		a8q4RNBxUS4pDvitdw6I+VI1W44=
 		</data>
+		<key>Resources/SMPFlowWindowController.storyboardc/announcement.nib</key>
+		<data>
+		O9c5aXDwVV1j0jOPnA/YmrUJGSY=
+		</data>
 		<key>Resources/SMPFlowWindowController.storyboardc/yZP-sv-WSO-view-LPg-MB-Njg.nib</key>
 		<data>
-		P/WL1Dbtu0atnyH1iKKaHIErePE=
+		AW/u5hUEW45q4WcBBFUOrLgfaow=
 		</data>
 		<key>Resources/SMPLoadingViewController.nib</key>
 		<data>
@@ -74,19 +90,19 @@
 		</data>
 		<key>Resources/SMPLoginViewController.storyboardc/D2s-jJ-tAd-view-39D-3q-UxD.nib</key>
 		<data>
-		3+X9bdqecOn/o7eCkTUflG/C8fk=
+		xGWNwqcieutB8JBes9DPNaKUXTk=
 		</data>
 		<key>Resources/SMPLoginViewController.storyboardc/Info.plist</key>
 		<data>
-		sqbzWIWFVvl7fuTPbC7AA19gl2g=
+		LxpZE9D8yED6EYa1aPFU9bAhesE=
 		</data>
 		<key>Resources/SMPLoginViewController.storyboardc/NSTabViewController-8pv-ud-msD.nib</key>
 		<data>
-		HDErA2zskXU2DbckOt8ET1Q/OdI=
+		B7UrK0gpgx2kGoMSqvXW9lfLH5o=
 		</data>
 		<key>Resources/SMPLoginViewController.storyboardc/RHs-xR-Wzb-view-9ru-CI-RKt.nib</key>
 		<data>
-		QZedQgEhGJP2+/4qyZDj33lJf9o=
+		/c7vPSuNP2UEEKPgff3mhnnGzGw=
 		</data>
 		<key>Resources/SMPPopoverErrorViewController.nib</key>
 		<data>
@@ -94,31 +110,31 @@
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/4Jz-es-Kl1-view-v4D-VQ-N6y.nib</key>
 		<data>
-		vtRTbws3/w+ZawTqdyNoE+E6S9E=
+		KYr6iPFvd9BBNiWGnmKfXBJpdZU=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/Dhd-Sb-nV1-view-fdm-1l-Ykc.nib</key>
 		<data>
-		CNATyH8I5JjpRbb2hRG0SfcOog4=
+		peP+2XMIvBHSmWy6hvs0k+31kBM=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/Info.plist</key>
 		<data>
-		ijhIslbJq0UVHuQ+zCbXjUY5C1Y=
+		ZUgm8yROaut+/5WVpkW9IYNXsYQ=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSTabViewController-kLY-dw-cMk.nib</key>
 		<data>
-		iMdFgOlvyvRGUNW1p9PvqDkTCDs=
+		OwCyr1ITBqC+ls3izT7pQY4bzCo=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSViewController-bU7-R8-ocO.nib</key>
 		<data>
-		T70oOXkV4Mj8EraiCMai6HhC0nw=
+		75ZlT5CNFTeaSsyk50yoCmfgfSg=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSViewController-p7L-Uz-cY1.nib</key>
 		<data>
-		dW/cxt+STOH4Hs2be95ZRst6Rh0=
+		h6Q27+aWcKTVlQRHFPaHgQerW0A=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/bU7-R8-ocO-view-tOy-S4-hL0.nib</key>
 		<data>
-		3v0pOGZJl2QHmlxJCNLLSadztVc=
+		Q7dPvQhk+qcYVvOQn+750bciaDo=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/da9-yT-ywj-view-h7U-fO-gpM.nib</key>
 		<data>
@@ -126,11 +142,11 @@
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/hhG-gk-jdF-view-dea-rQ-w3e.nib</key>
 		<data>
-		BSrSwdmehq4Caxtgqk3qGAhq94A=
+		fWKx/Mt6ioSqic//3OM1qj5KQ2A=
 		</data>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/p7L-Uz-cY1-view-lZp-nH-v91.nib</key>
 		<data>
-		X8d3tMeAKAtzLLZFGmPTbuDfPK8=
+		y3Bvrg4qlzXUL/SK66QrJaabu2o=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/1uL-ta-cKH-view-9BW-Tt-Y8B.nib</key>
 		<data>
@@ -138,39 +154,39 @@
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/1xJ-jZ-Ekn-view-osx-Y5-FzC.nib</key>
 		<data>
-		Z6BLMSDw+RZkqTZz/Fb06Fig5b4=
+		B09/TVHD+dRh/NRT3pK+KSjwX64=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/72A-jb-J3C-view-Vri-F6-WiM.nib</key>
 		<data>
-		sJQ4UnKSX2GgC3RXTc98ImU8rtI=
+		ZcGaWIbJitKuUEs6R8DMI8dd8No=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/Info.plist</key>
 		<data>
-		uE/uKAmNgJhte0fjvg34SdUUxQ4=
+		05mIs+Vu831LHrxLuK6XEPO6gzE=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSTabViewController-aIh-1b-jqL.nib</key>
 		<data>
-		n06rG91ODW+WDC/ZgkTVKxCRXjM=
+		oDMwsOEAsGYYVjbRLz7ShorgViE=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSViewController-bU7-R8-ocO.nib</key>
 		<data>
-		hOi8yI4hLgT2c+1Nu+0FUDcTV2g=
+		UJbS8dCcvqsYkKzwUVkygy6J8N4=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSViewController-nV6-oq-xpX.nib</key>
 		<data>
-		6b2B321Iypd0uqGQ6kWrgwM2oro=
+		QlKJNEL5CAYH/ChMqXLykUMmo+g=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/bU7-R8-ocO-view-tOy-S4-hL0.nib</key>
 		<data>
-		jWZW1PQuoAVxwuDr35vfwD/xeeY=
+		MgPQpLOLF+pWHiYjTHijUQ52IA8=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/nV6-oq-xpX-view-2G2-qG-pCS.nib</key>
 		<data>
-		ewHdjumL7gCFmhvJRxcPlp4S1k0=
+		ST+Jm2fu3/Qd55gry/GibwmI2E8=
 		</data>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/yNU-Kp-uM3-view-Y6o-ri-1od.nib</key>
 		<data>
-		vtRTbws3/w+ZawTqdyNoE+E6S9E=
+		KYr6iPFvd9BBNiWGnmKfXBJpdZU=
 		</data>
 		<key>Resources/SVGO Compressor.sketchplugin/Contents/Sketch/manifest.json</key>
 		<data>
@@ -182,7 +198,7 @@
 		</data>
 		<key>Resources/tools/optipng</key>
 		<data>
-		Dsui2O7LHQ6a8zZPMQQc8gsArzg=
+		ug3CIL4G9XOiFwhPaHs7P9gNhwY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -191,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkCTheK4ly544+LYKa61HJxmoskT6RAvPGq3gxXIeEk=
+			yPwBfJsXtW2oVhS1sWy4lllSALAfyDhSeLam68Z/ICE=
 			</data>
 		</dict>
 		<key>Resources/Defaults.plist</key>
@@ -205,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0c9Tz9CwHyWBYcxhgevdR/BPGbseBLwwqB9UaFMSdsU=
+			mdVJYGUHmRv3O0VV858ynejjidd4EmjHhS3RDT6ObQE=
 			</data>
 		</dict>
 		<key>Resources/Localizable.stringsdict</key>
@@ -213,6 +229,20 @@
 			<key>hash2</key>
 			<data>
 			c6MKhAJdQL7/Dabs3cTRBADldyGYAOyOXJuqFwJm22o=
+			</data>
+		</dict>
+		<key>Resources/SDWebImage.bundle/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tj5Ch4y7j3eEBEzdUN98tFKIYZdvyK2JZ9Gt1jFol0A=
+			</data>
+		</dict>
+		<key>Resources/SDWebImage.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
 			</data>
 		</dict>
 		<key>Resources/SMPAboutViewController.nib</key>
@@ -257,32 +287,39 @@
 			v0SBF4RYd0mFtcuqtsYTGbODvrliTjTZKcfqfLfMQMg=
 			</data>
 		</dict>
+		<key>Resources/SMPFlowWindowController.storyboardc/Cdh-Oz-EJi-view-Pod-7z-h64.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BhK4pVFCwrjlndCSrm7FZdLBhcMc2btXkgJR20QB8pk=
+			</data>
+		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSwidwcNoMCIrf1WBjso0WzYjL6N5DRIB9Vuhy/MWdM=
+			Wu7p+twYnBTVBgW11lCtscPwvFKm37NUkK8miqVCUhA=
 			</data>
 		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSTabViewController-v8p-r9-glZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			idZ62XzqISAsWRAtBiB6cO81oemxdQ6p4Zw0DA1Ewak=
+			pibvgZ9+qB54DUqbH5QsxQsW9ht/ABEoIQSAKUDpvgY=
 			</data>
 		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSViewController-PPW-xU-dv1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l2M7BwxfLHNIbjKLzu2aLPR3StWMFpgd9TPmQVinoQs=
+			0WNME5RDCh42g4hB1prmULyc/Pc7r9WEN1zCVEM4zpM=
 			</data>
 		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/NSWindowController-YxD-CK-qbM.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dEVPXNE9t41vQtoq0s3xEnzGoTuku8EMHMR2uub4jHQ=
+			yByht26ho9ifSPu57Icc/Ni+oASdrHVQzNHUxvTikRo=
 			</data>
 		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/PPW-xU-dv1-view-cVh-CX-zUI.nib</key>
@@ -292,11 +329,18 @@
 			Jt7VXhOs8CPK/Rw6EDKyhvTOF3cZ+/MWr/sklnWLQVU=
 			</data>
 		</dict>
+		<key>Resources/SMPFlowWindowController.storyboardc/announcement.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hx77mDMLb18Z2e831dnwiZ2TlscQplTJmX1ygsmBITk=
+			</data>
+		</dict>
 		<key>Resources/SMPFlowWindowController.storyboardc/yZP-sv-WSO-view-LPg-MB-Njg.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rGiSsCbswxQvxC0cnEyDXYLO5SlHY5OijNgoLvDFwAY=
+			+VI87Vl/IRxGF9v8PJzAhCNGLSt1U5QmFYFWlN2je6Y=
 			</data>
 		</dict>
 		<key>Resources/SMPLoadingViewController.nib</key>
@@ -310,28 +354,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfnwxy7Vijq8VbROU6QC3Uqx322025wHt7tKKIDEBTA=
+			t/sL/I23mdYHwfuyZ01YgPEiickCi6tWLGX3mzNV7Ms=
 			</data>
 		</dict>
 		<key>Resources/SMPLoginViewController.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OJiLm8uhPQDT6FswIeK2wJiaJb+wElm+c51v6fn1rY=
+			/fdE8xwDiY/fn9GhtPVJBRiyHIux1u4mS00Zz534RWU=
 			</data>
 		</dict>
 		<key>Resources/SMPLoginViewController.storyboardc/NSTabViewController-8pv-ud-msD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rRPwXcAKODNLzjQvWBrMvhrv6/r+2UR3ZhekXkmEh8=
+			FB3M8O2hF1KC9KABJVJVUUg5gv05cWMszDWfxLWSXEM=
 			</data>
 		</dict>
 		<key>Resources/SMPLoginViewController.storyboardc/RHs-xR-Wzb-view-9ru-CI-RKt.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2y1RU+cwsI27wDgywVwfGzQq4K4KnXk+fmM/VL9Q7Vg=
+			ayEy7NoTgeOfbP0FTCPHzDjwLSqZoSNrHl7y2wUmD8E=
 			</data>
 		</dict>
 		<key>Resources/SMPPopoverErrorViewController.nib</key>
@@ -345,49 +389,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TXv3cwvxuiqHc+NOjl94d1gj4++IAqHvUg/nh+IerQ=
+			wNpNaNWj/FzMEMJ8CBzjA/KXp3VCexX/slvgg6FJ3Gw=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/Dhd-Sb-nV1-view-fdm-1l-Ykc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S3+jW2y/kolQ+tbSj3HFKVtiVNLdKFkDfkgDxJxjqlU=
+			a3D0IKv1KBsaf/U2SuCLS4QERYZR83sV/zjtDJtlsis=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FrTf4t2mdD3K5LGD4u+job1J3CwxVYNFQtrlh/UDBnY=
+			Q544sk8lMKVwuNZsKbc2R1Y5lRWwmTX2jc+dQEAqihA=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSTabViewController-kLY-dw-cMk.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DbMhtPWxm2F8CTOPW4y4douUUWZUnubR07+rbxdclZM=
+			W5uJ5aTUMotI3g/TTO020hlR41FrO3GwbC9BVuTeEA8=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSViewController-bU7-R8-ocO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFlGLeFJYIS7+pnPnon5IsegOsBWTduPraj8YgUIdG8=
+			xpCptpsBc+uSXXE7iu54hK0KaVQwpTpkeBv7CBp1PeY=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/NSViewController-p7L-Uz-cY1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KP/I/RhPRaDfmLbKn9AjVQov3mcr4BsRjwfvL4vhLZY=
+			g5I0MBflb/ghHsz94qzCBL/1wjuBBJIk1qobzxzw9SA=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/bU7-R8-ocO-view-tOy-S4-hL0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H0mVHA8vurv/AEr4Pzva5Cm0g4p8bHVDS5eHYk3SvUg=
+			220xJbgTWpg/VuJTWu6CGkEtNTZwVUTB2qmVSoyYtPM=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/da9-yT-ywj-view-h7U-fO-gpM.nib</key>
@@ -401,14 +445,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zNTWRR8/RJkB4XZLvCyKIqxdcUhLdMSZFxXkkoo2kM=
+			4mHjrWE0g0gxKgZFg3JaLmQ2AFJ5VBIZM/ZneHKz81g=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportArtboardsViewController.storyboardc/p7L-Uz-cY1-view-lZp-nH-v91.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3zBhRTqwukbRL5y5HGuOYtkvWwU2k/BZnwJIopAWLo4=
+			AennKzSbTKMOW3JB4iHtEnActdzp6wlOELTsQq0+h88=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/1uL-ta-cKH-view-9BW-Tt-Y8B.nib</key>
@@ -422,63 +466,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cK4nS8SsBVc16E8JHa/68xTQ+SEXUwkDlfUkhBNet6Y=
+			KI7AvB5T6HOdzCEaN85YqUmqEqKaeEO169ZlK/+CD0o=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/72A-jb-J3C-view-Vri-F6-WiM.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ETlQE4pkAS5XcB4V7OJgLFuDIiRBu89aGYRXN7u3l0Q=
+			2O30yk0UNt7UYVAS488GrMzACqqRCwEwkHgh7ZDjE5A=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KtX1TJAstWBK0+4f8TgCV9HSTiA+3G1x11WH3mSuUEk=
+			SYuV0GuAte+Azwg+IMANiJuEvMFQNAXYdo+Wsq5ZofU=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSTabViewController-aIh-1b-jqL.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yeTI7v1D3zeZdSFoh0sEez4kICH520bkqHv/PVWooTk=
+			naouxffmI9gMSGKyMJzYiD0aWSrV4UNxTKhauuwP1Es=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSViewController-bU7-R8-ocO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XA+dK31tU2ucAktChPPrkePyvkPSRAWxsH4oErGczEk=
+			WizcsnqspC1l4G4BXWapRydXV9Dl5/JaOPfcwykMKrw=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/NSViewController-nV6-oq-xpX.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aG3zxl04cd/CHn0uXMp+3D3/rnuVNWWoBe4j9qZ2hMk=
+			P9QYZgdTd+gbh1qxZZbotA85SX3E6MVJV/v6VaPBz/E=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/bU7-R8-ocO-view-tOy-S4-hL0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			seiOnJuxA+a8qDIKEK3OA8m5WKeBeISwMMLAnsbLEEo=
+			T2Euf/NMOF2Ib9hu4e203qgZ8XRdfDA98qy2R6PuQFM=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/nV6-oq-xpX-view-2G2-qG-pCS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WlinSKcQdCGScglAq6l3FzuTUiMWpN8Fb4O9dMLaMvA=
+			et/PsV4H/nXprwv+wl6lD7e00qoHO2Oq3zVnCseCuOo=
 			</data>
 		</dict>
 		<key>Resources/SMPWhereToExportDesignSystemViewController.storyboardc/yNU-Kp-uM3-view-Y6o-ri-1od.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TXv3cwvxuiqHc+NOjl94d1gj4++IAqHvUg/nh+IerQ=
+			wNpNaNWj/FzMEMJ8CBzjA/KXp3VCexX/slvgg6FJ3Gw=
 			</data>
 		</dict>
 		<key>Resources/SVGO Compressor.sketchplugin/Contents/Sketch/manifest.json</key>
@@ -499,7 +543,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HZls8lKs4vtnUt6JWKGPEgCEzkEfbT+rjFOIz2aDg20=
+			kKA4OMyGfADMDq+h5QsklyDbHE0DfIhuBffPirkK9E4=
 			</data>
 		</dict>
 	</dict>

@@ -2,24 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BugsnagIdentifier</key>
-	<string>df7a559a417f90a89426e8fc3d9c858e</string>
 	<key>BuildMachineOSBuild</key>
 	<string>23A344</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleExecutable</key>
-	<string>SympliSketchPlugin</string>
 	<key>CFBundleIdentifier</key>
-	<string>Sympli.SympliSketchPlugin</string>
+	<string>org.cocoapods.SDWebImage</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SympliSketchPlugin</string>
+	<string>SDWebImage</string>
 	<key>CFBundlePackageType</key>
-	<string>FMWK</string>
+	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.6</string>
+	<string>5.19.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -46,11 +42,5 @@
 	<string>15F31d</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2015–2024 Sympli. All rights reserved.</string>
-	<key>SympliBaseURL</key>
-	<string>https://app.sympli.io</string>
-	<key>SympliSAMLEndpoint</key>
-	<string></string>
 </dict>
 </plist>
