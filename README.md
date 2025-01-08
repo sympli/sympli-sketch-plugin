@@ -1,3 +1,8 @@
+> [!WARNING]
+> After almost 10 years of empowering design teams all around the world, Sympli Handoff and Versions services have been *shut down* on December 31st, 2024.
+>  
+> Thank you and goodbye 🫡
+
 # Sympli Handoff Sketch Plugin 🔸
 
 <img src="./img/PluginScreenshotForReadme.png" width="412">
